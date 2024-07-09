@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://zwangek.github.io/sitemap.xml
+Sitemap: https://nek0suki.github.io/sitemap.xml
