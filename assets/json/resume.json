@@ -27,6 +27,7 @@
   "education": [
     {
       "institution": "University of California, San Diego",
+      "url": "https://ucsd.edu/",
       "location": "California, United States",
       "area": "Computer Science",
       "studyType": "Master of Science",
@@ -37,6 +38,7 @@
     },
     {
       "institution": "The Hong Kong University of Science and Technology",
+      "url": "https://hkust.edu.hk",
       "location": "Kowloon, Hong Kong",
       "area": "Computer Science",
       "studyType": "Bachelor of Engineer",
@@ -90,6 +92,11 @@
     {
       "language": "English",
       "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Beginner",
       "icon": ""
     }
   ],
