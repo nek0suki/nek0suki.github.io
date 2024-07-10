@@ -24,12 +24,12 @@
   "work": [
     {
       "name": "Tencent Lightspeed Tech Center",
-      "position": "Professor of Theoretical Physics",
+      "position": "Graphics Engineer Intern",
       "url": "https://www.lightspeed-studios.com/",
       "startDate": "2024-06-17",
       "endDate": "2024-09-30",
-      "summary": "",
-      "highlights": ["Relativity"]
+      "summary": "Develop graphics features for Unreal Engine 5",
+      "highlights": ["Unreal Engine 5"]
     }
   ],
   "education": [
@@ -38,8 +38,18 @@
       "location": "California, United States",
       "area": "Computer Science",
       "studyType": "Master of Science",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2023-09-25",
+      "endDate": "2025-06-30",
+      "score": "10",
+      "courses": ["Theory of Relativity"]
+    },
+    {
+      "institution": "The Hong Kong University of Science and Technology",
+      "location": "Kowloon, Hong Kong",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Engineer",
+      "startDate": "2019-09-01",
+      "endDate": "2023-06-30",
       "score": "10",
       "courses": ["Theory of Relativity"]
     }
