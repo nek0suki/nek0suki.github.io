@@ -38,10 +38,10 @@
       "url": "https://ucsd.edu/",
       "location": "California, United States",
       "area": "Computer Science",
-      "studyType": "Master of Science",
+      "studyType": "Master of Science in Computer Science",
       "startDate": "2023-09-25",
       "endDate": "2025-06-30",
-      "score": "4.0/4.0",
+      "score": "GPA: 4.0/4.0",
       "courses": ["Computer Graphics II: Rendering (A+), Advanced Image Synthesis (A+), Discrete Differential Geometry (A+), Physics Simulation (A+)"]
     },
     {
@@ -49,10 +49,10 @@
       "url": "https://hkust.edu.hk",
       "location": "Kowloon, Hong Kong",
       "area": "Computer Science",
-      "studyType": "Bachelor of Engineering",
+      "studyType": "Bachelor of Engineering in Computer Science",
       "startDate": "2019-09-01",
       "endDate": "2023-06-30",
-      "score": "3.88/4.3",
+      "score": "GPA: 3.88/4.3, Major GPA: 3.94/4.3",
       "courses": ["Advanced Computer Graphics (A+), Linear Algebra (A), Deep Learning in Computer Vision (A), Computer Vision (A-)"]
     }
   ],
