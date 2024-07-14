@@ -10,7 +10,7 @@ related_publications: false
 
 This project implements forward and reverse mode automatic differentiation mechanism in compiler for the <a href="https://github.com/BachiLi/loma_public">loma</a> programming language.  
 
-After that, a toy python module is developed to derive the trajectories of mass points given arbitrary coordinate system and potential energy function. It automatically computes the Jacobian and Hessian tensors 
+After that, a toy python module is developed to derive the trajectories of mass points given arbitrary coordinate system and potential energy function. Leveraging Hamiltonian mechanics, it automatically computes the Jacobian and Hessian tensors and figures out the equation of motion.
 
 Some examples include:  
 
@@ -19,7 +19,8 @@ Some examples include:
         {% include video.liquid path="assets/video/AdSolver/triple_pendulum.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        ```python
+        {% raw %}
+        ```
         def sys_coords(q : In[MatrixMN]) -> MatrixMN:
             l1 : float = 5
             l2 : float = 5
@@ -121,7 +122,7 @@ Just wrap your images with `<div class="col-sm">` and place them inside `<div cl
 To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
 Here's the code for the last row of images above:
 
-{% raw %}
+
 
 ```html
 <div class="row justify-content-sm-center">
