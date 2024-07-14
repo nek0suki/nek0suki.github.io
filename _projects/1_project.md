@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Automatic-Differentiation Rigidbody Dynamics Solver
+title: Automatic-Differentiation Rigidbody Dynamics
 description: Course project of UCSD CSE291 Differentiable Programming
 img: assets/img/12.jpg
 importance: 1
@@ -8,7 +8,23 @@ category: project
 related_publications: false
 ---
 
+This project implements forward and reverse mode automatic differentiation mechanism in compiler for the <a href="https://github.com/BachiLi/loma_public">loma</a> programming language.  
 
+After that, a toy python module is developed to derive the trajectories of mass points given arbitraty coordinate system and potential energy function.  
+
+Some examples include:  
+
+<div class="row mt-3">
+    {% include video.liquid path="assets/video/AdSolver/triple_pendulum.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+</div>
+<div class="caption">
+    Triple Pendulum
+</div>
+
+
+{% include video.liquid path="assets/video/AdSolver/three_body.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+
+{% include video.liquid path="assets/video/AdSolver/bouncing.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
