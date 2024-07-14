@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
+title: 3D Avatar Generation
 description: another without an image
 img:
 importance: 3
-category: fun
+category: project
 ---
 
 Every project has a beautiful feature showcase page.

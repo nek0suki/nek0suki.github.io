@@ -3,7 +3,7 @@
     "name": "Zeyu Wang",
     "image": "",
     "email": "zew027@ucsd.edu",
-    "phone": "+1 (858) 642-55895, +1 130-3115-9362",
+    "phone": "+1 (858) 642-55895 / +86 130-3115-9362",
     "summary": ""
   },
   "work": [
@@ -19,7 +19,7 @@
       "name": "HKUST SMART Lab",
       "position": "Undergraduate Research Intern",
       "url": "https://hkustsmartlab.github.io/",
-      "startDate": "2022-09-01",
+      "startDate": "2022-02-01",
       "endDate": "2023-05-30",
       "summary": "Researched data-efficient deep learning for nuclei detection and segmentation."
     },
@@ -27,8 +27,8 @@
       "name": "DiDi",
       "position": "Backend Developer Intern",
       "url": "https://www.didiglobal.com/",
-      "startDate": "2024-06-17",
-      "endDate": "2024-09-30",
+      "startDate": "2021-06-24",
+      "endDate": "2021-08-13",
       "summary": "Developed and maintained services for the backend system for the vehicle media screen project."
     }
   ],
