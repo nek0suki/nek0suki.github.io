@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Claim to be graphics people
+subtitle: Page still under development
 
 profile:
   align: right
