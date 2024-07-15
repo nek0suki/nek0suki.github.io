@@ -9,7 +9,7 @@ category: project
 
 In this project, I implemented two extensions in an educational renderer, <a href="https://github.com/BachiLi/lajolla_public">La Jolla Renderer</a>.
 
-# Disney Principled BRDFs
+## Disney Principled BRDFs
 This follows the famous SIGGRAPH course in 2012. <a href="https://media.disneyanimation.com/uploads/production/publication_asset/48/asset/s2012_pbs_disney_brdf_notes_v3.pdf">Disney principled BRDFs</a>. It contains diffuse, metal, glass, clearcoat, and sheen components.
 
 <div class="row">
@@ -26,7 +26,7 @@ This follows the famous SIGGRAPH course in 2012. <a href="https://media.disneyan
     A coffee maker from <a href="https://mitsuba.readthedocs.io/en/latest/src/gallery.html">Mitsuba3 scenes</a>.
 </div>
 
-# Volumetric Path Tracing
+## Volumetric Path Tracing
 This implements the <a href="https://dl.acm.org/doi/10.1145/2661229.2661292">Ratio Tracking</a> method to render heterogeneous medium. It applys a majorant value of the volume and determines whether rays hitting a real or fake particle according to the ratio of the extinction coefficient at the point and the majorant (aka. homogenization).
 
 <div class="row">
@@ -58,7 +58,7 @@ In addition, I also implements <a href="https://onlinelibrary.wiley.com/doi/abs/
         {% include figure.liquid loading="eager" path="assets/img/lajolla/es_eq.png" title="Only Equiangular Sampling" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/lajolla/es_mis.png" title="MIS" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/lajolla/es_MIS.png" title="MIS" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
 </div>
 <div class="caption">
