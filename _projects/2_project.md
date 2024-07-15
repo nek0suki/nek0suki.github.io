@@ -7,7 +7,7 @@ importance: 1
 category: project
 ---
 
-A physically-based Monte-Carlo hardware path tracer using <a href="https://developer.nvidia.com/rtx/ray-tracing/optix">NVIDIA OptiX</a> written in C++ and CUDA. It features with three integrators, which are standard path tracing, bidirectional path tracing, and multiplexed Metropolis light transport. Of course, it comrises tricks to improve sampling efficiency such as next event estimation, Russian roulette, multiple importance sampling. The implementation is highly inspired by <a href="https://pbr-book.org/">PBRT</a>. However, I did not pay many efforts on BXDFs so that it only comes with a modified Phong model and GGX model. As a result, some abilities of Metropolis light transport (e.g., caustics) cannot be showcased. A report can be found <a href="/assets/pdf/optix.pdf">here</a>.
+A physically-based Monte-Carlo hardware path tracer using <a href="https://developer.nvidia.com/rtx/ray-tracing/optix">NVIDIA OptiX</a> written in C++ and CUDA. It features with three integrators, which are standard path tracing, bidirectional path tracing, and multiplexed Metropolis light transport. Of course, it comprises common tricks to improve sampling efficiency such as next event estimation, Russian roulette, multiple importance sampling. The implementation is highly inspired by <a href="https://pbr-book.org/">PBRT</a>. However, I did not pay many efforts on BXDFs so that it only comes with a modified Phong model and GGX model. As a result, some abilities of Metropolis light transport (e.g., caustics) cannot be showcased. A report can be found <a href="/assets/pdf/optix.pdf">here</a>.
 
 Some example images:
 <div class="row">
