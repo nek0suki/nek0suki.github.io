@@ -44,16 +44,16 @@ $$ Lu = \star_0 f$$
 ### Conformal Texture Coordinates
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/houdini/conformal/aircraft.png" title="Heat Method" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/houdini/conformal/aircraft.png" title="Texture Aircraft" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/houdini/conformal/beetle.png" title="Heat Method" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/houdini/conformal/beetle.png" title="Texture Beetle" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/houdini/conformal/cathead.png" title="Heat Method" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/houdini/conformal/cathead.png" title="Texture Cat Head" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/houdini/conformal/face.png" title="Heat Method" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/houdini/conformal/face.png" title="Texture Face" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
 </div>
 <div class="caption">
@@ -63,7 +63,7 @@ $$ Lu = \star_0 f$$
 ### Smoothest Cross Field Assignment
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/houdini/field.png" title="Heat Method" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/houdini/field.png" title="Cross Field" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
 </div>
 <div class="caption">
