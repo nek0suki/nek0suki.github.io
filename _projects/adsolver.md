@@ -2,7 +2,7 @@
 layout: page
 title: Automatic-Differentiation Rigidbody Dynamics
 description: A Toy Python Module
-img: assets/img/12.jpg
+img: 
 importance: 1
 category: project
 ---

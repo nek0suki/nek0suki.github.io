@@ -10,18 +10,8 @@ category: project
 A collection of mini projects about geometry and simulation with Houdini. Codes are written in VEX and Python.
 
 ## Geometry
-### Electrostatics
-Positive and negative charges are set at the red and blue poles. The Poisson equation solves the electirc potential.
-
-Build a rearranged Laplacian operator first
-
-$$ L = d^T \star_1 d $$
-
-Then solve the Poisson problem
-
-$$ (-\Delta)u = f $$
-$$ Lu = \star_0 f$$
-
+### Poisson Problem
+Positive and negative charges are set at the red and blue poles. Build a surface Laplacian operator first and use that to solve the Poisson equation to obtain electirc potential.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/houdini/poisson.png" title="Poisson Equation" class="img-fluid rounded z-depth-1" zoomable=true%}
@@ -32,6 +22,7 @@ $$ Lu = \star_0 f$$
 </div>
 
 ### Geodesic Distance using Heat Equation
+To solve geodesic distance, build a Lplacian operator first. Then setup initial impulse at points according to corresponding point areas. Next, evolve Heat equation $$\star_0 \frac{\partial u}{\partial t} = - d_0^T \star_1 d_0 u$$ with backward Euler for a few steps to achieve equilibrium. After that, find the gradient of the heat flow on the primitives. Finally, use Poisson reconstruciton to find a distance field that best fits the gradient.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/houdini/heat.png" title="Heat Method" class="img-fluid rounded z-depth-1" zoomable=true%}
