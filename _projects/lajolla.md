@@ -48,7 +48,7 @@ This implements the <a href="https://dl.acm.org/doi/10.1145/2661229.2661292">Rat
     Some other volumes.
 </div>
 
-In addition, I also implements <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2012.03148.x">Equiangular Sampling</a> for circular light sources as a bonus. It gives a higher weight to places closer to light sources during importance sampling, so as to sample paths with fewer decades caused by scatter and absorption of the volume. Moreover, this is combined with the transmittance sampling method with multiple importance sampling to further increase efficiency.
+In addition, I also implemented <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2012.03148.x">Equiangular Sampling</a> for circular light sources as a bonus. It gives a higher weight to places closer to light sources during importance sampling, so as to sample paths with fewer decades caused by scatter and absorption of the volume. Moreover, this is combined with the transmittance sampling method with multiple importance sampling to further increase efficiency.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
