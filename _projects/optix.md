@@ -2,7 +2,7 @@
 layout: page
 title: OptiX Path Tracer
 description: Path, BDPT, and MMLT Integrators
-img: assets/img/3.jpg
+img: assets/img/optix/cornellOcclusion_mlt.png
 importance: 1
 category: project
 ---

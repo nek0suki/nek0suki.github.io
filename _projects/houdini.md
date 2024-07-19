@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Houdini Mini Tasks
-description: with background image
-img: assets/img/4.jpg
+description: Geometry and Simulation
+img: assets/img/houdini/heat.png
 importance: 1
 category: project
 ---

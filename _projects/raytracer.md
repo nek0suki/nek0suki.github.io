@@ -2,7 +2,7 @@
 layout: page
 title: Whitted-style Ray Tracer
 description: Ray tracing in one weekend
-img: assets/img/1.jpg
+img: assets/img/raytracer/preview.png
 importance: 1
 category: project
 ---

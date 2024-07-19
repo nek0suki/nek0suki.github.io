@@ -2,7 +2,7 @@
 layout: page
 title: La Jolla Renderer Extensions
 description: Disney Principled BRDFs and Volumetric Path Tracing
-img: assets/img/7.jpg
+img: assets/img/lajolla/hetvol_colored.png
 importance: 1
 category: project
 ---
