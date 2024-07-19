@@ -10,8 +10,18 @@ category: project
 A collection of mini projects about geometry and simulation with Houdini. Codes are written in VEX and Python.
 
 ## Geometry
-### Poisson Equation
-Build a Laplacian operator first, and then use it to solve a Poisson equation. Positive and negative charges are set at the red and blue poles.
+### Electrostatics
+Positive and negative charges are set at the red and blue poles. The Poisson equation solves the electirc potential.
+
+Build a rearranged Laplacian operator first
+
+$$ L = d^T \star_1 d $$
+
+Then solve the Poisson problem
+
+$$ (-\Delta)u = f $$
+$$ Lu = \star_0 f$$
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/houdini/poisson.png" title="Poisson Equation" class="img-fluid rounded z-depth-1" zoomable=true%}
