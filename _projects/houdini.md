@@ -32,7 +32,8 @@ To solve geodesic distance, build a Lplacian operator first. Then setup initial 
     Using surface Laplacian to solve Poisson equation.
 </div>
 
-### Conformal Texture Coordinates
+### Spectral Conformal Flattening
+Conformal coordinates are a kind of texture map that has minimal shearing distortion and only infinitesimally scales and rotates the texture. To obtain this, minimize the discrete conformal energy as the difference between the Dirichlet energy and the sum of area on the complex plane $$z=u+iv$$, $$C[z] = \frac{1}{2}||dz||^2-Area[z]$$. The desired texture coordinates $$(u,v)$$ are the minimizer of the conformal energy.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/houdini/conformal/aircraft.png" title="Texture Aircraft" class="img-fluid rounded z-depth-1" zoomable=true%}
@@ -48,7 +49,7 @@ To solve geodesic distance, build a Lplacian operator first. Then setup initial 
     </div>
 </div>
 <div class="caption">
-    Using surface Laplacian to solve Poisson equation.
+    Coformal texture coordinates. These map a square checkerboard texture onto different geometries.
 </div>
 
 ### Smoothest Cross Field Assignment
